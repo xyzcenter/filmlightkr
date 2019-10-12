@@ -1,4 +1,5 @@
 Baselight Release 5.2.12393 (2019-10-03)
+
 베이스라이트 릴리즈 5.2.12393 버전 (2019-10-03)
 
 Important Notes
