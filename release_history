@@ -1,4 +1,5 @@
 Baselight Release 5.2.12393 (2019-10-03)
+베이스라이트 릴리즈 5.2.12393 버전 (2019-10-03)
 
 Important Notes
 ===============
@@ -43,7 +44,7 @@ New Features Since Baselight 5.2.12381
 
 * Added support for reading ProRes encoded MXFs from the ALEXA Mini LF
   camera [bug 52776]
-알렉사 미니 LF 카메라로부터 프로레스로 엔코딩된 MXF 파일 읽기를 지원합니다. 
+  알렉사 미니 LF 카메라로부터 프로레스로 엔코딩된 MXF 파일 읽기를 지원합니다. 
 
 Bug Fixes Since Baselight 5.2.12381
 ===================================
@@ -144,7 +145,6 @@ Dolby Vision
 
 * Added support for Dolby Vision v4.0 in Analysis, Trim, Software CMU
   and XML export.
-  
   분석, 트림, 소프트웨어 CMU, XML추출 등의 돌비비젼 버전4.0 지원 기능을 추가했습니다. 
 
   v4.0 Analysis adds an "L3 Mid Offset" option. v4.0 Trim adds
@@ -159,7 +159,7 @@ Dolby Vision
 
 
 Toggle Previous Operator
-이전 오퍼레이터로 스위칭
+이전 오퍼레이터로 스위칭 =
 ------------------------
 
 * Added the ability to toggle between the current and the previous
@@ -179,14 +179,17 @@ Toggle Previous Operator
 
 
 Final Cut Pro X XML Conform and Modify
+파이널 컷 프로 X XML 컨펌 및 수정
 --------------------------------------
 
 * Added support for conforming Final Cut Pro X .fcpxml files, and
   modifying them to reference new media rendered from Baselight.
+  파이널 컷 프로 X의 fcpxml 파일 지원 기능을 추가했으며, 베이스라이트로 부터 랜더된 새로운 레퍼런스 이미지 기반으로 xml을 수정할 수 있습니다. 
 
   Conform is supported from FCPXML files in the same manner as AAFs,
   XMLs, etc. Supported effects include dissolves, transforms and
   retimes.
+  AAF나 XML등과 같은 방식으로 FCPXML로 부터 컨펌을 지원합니다. 디좉브, 트랜스폼, 리타임과 같은 이펙트를 지원합니다. 
 
   To update an FCPXML with rendered graded media:
   - Perform a Timeline Sort using the "FCP XML Rendering" tab
@@ -195,6 +198,8 @@ Final Cut Pro X XML Conform and Modify
     button
   - The updated FCPXML file will be written to the specified location
     once the render is finished [bug 18628]
+  FCPXML과 같이 랜더된 색보정 데이터는 
+  
 
 
 Input Methods
